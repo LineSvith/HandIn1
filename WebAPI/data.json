@@ -1,7 +1,14 @@
-{"Users":[
-  {"Id":1,
-    "UserName":"Line"
-  }],
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Line"
+    },
+    {
+      "Id": 2,
+      "UserName": "Lotte"
+    }
+  ],
   "Todos": [
     {
       "Id": 1,
@@ -11,6 +18,15 @@
       },
       "Title": "Test todo",
       "IsCompleted": false
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Line"
+      },
+      "Title": "qwerty",
+      "IsCompleted": false
     }
-  ]  
+  ]
 }
