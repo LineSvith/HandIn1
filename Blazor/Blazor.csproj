@@ -16,4 +16,10 @@
     </ItemGroup>
 
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\UIComponents\FancyCheckBox.razor" />
+      <_ContentIncludedByDefault Remove="Pages\UIComponents\Modal.razor" />
+    </ItemGroup>
+
+
 </Project>
