@@ -17,8 +17,16 @@
 
 
 
+
     <ItemGroup>
-      <Folder Include="wwwroot\icons\" />
+      <Content Update="icons\funnel.png">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+      <Content Update="icons\clear_funnel.png">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>

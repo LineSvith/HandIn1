@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7uFaIUe91LuZlOsUhthbKIUXubJEhbNOCOFZfoC9naB/P6x3+PHUYPl1VEQQNstfwj2p3v9K8JVy4U2vz2FMrQ==",
+  "success": true,
+  "projectFilePath": "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/line/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/line/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
