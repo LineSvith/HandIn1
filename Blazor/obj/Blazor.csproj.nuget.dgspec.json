@@ -4,6 +4,73 @@
     "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Blazor/Blazor.csproj": {}
   },
   "projects": {
+    "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Application/Application.csproj",
+        "packagesPath": "/Users/line/.nuget/packages/",
+        "outputPath": "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/line/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Domain/Domain.csproj": {
+                "projectPath": "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Blazor/Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,6 +93,12 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Application/Application.csproj": {
+                "projectPath": "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Application/Application.csproj"
+              },
+              "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Domain/Domain.csproj": {
+                "projectPath": "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Domain/Domain.csproj"
+              },
               "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/HttpClients/HttpClients.csproj": {
                 "projectPath": "/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/HttpClients/HttpClients.csproj"
               }
@@ -41,35 +114,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Components.WebAssembly": {
-              "target": "Package",
-              "version": "[7.0.10, )"
-            },
-            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.10, )"
-            },
-            "Microsoft.NET.ILLink.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.100-1.23401.1, )",
-              "autoReferenced": true
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.100-1.23401.1, )",
-              "autoReferenced": true
-            },
-            "Microsoft.NET.Sdk.WebAssembly.Pack": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.6, )",
-              "autoReferenced": true
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -87,25 +131,23 @@
               "version": "[7.0.20, 7.0.20]"
             },
             {
-              "name": "Microsoft.NETCore.App.Ref",
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
               "version": "[7.0.20, 7.0.20]"
             },
             {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "name": "Microsoft.NETCore.App.Ref",
               "version": "[7.0.20, 7.0.20]"
             }
           ],
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "browser-wasm": {
-          "#import": []
         }
       }
     },
@@ -142,6 +184,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

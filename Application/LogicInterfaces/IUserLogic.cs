@@ -5,6 +5,6 @@ namespace Application.LogicInterfaces;
 
 public interface IUserLogic
 {
-    public Task<User> CreateAsync(UserCreationDto dto);
-    public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters);
+    public Task<AuthenticationUser> CreateAsync(UserCreationDto dto);
+    public Task<AuthenticationUser> ValidateLogin(AuthUserLoginDto dto);
 }

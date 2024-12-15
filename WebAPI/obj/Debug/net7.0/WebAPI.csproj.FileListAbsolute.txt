@@ -79,3 +79,10 @@
 /Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/WebAPI/obj/Debug/net7.0/WebAPI.pdb
 /Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/WebAPI/obj/Debug/net7.0/WebAPI.genruntimeconfig.cache
 /Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/WebAPI/obj/Debug/net7.0/ref/WebAPI.dll
+/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/WebAPI/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/WebAPI/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/WebAPI/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/WebAPI/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/WebAPI/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/WebAPI/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/WebAPI/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll

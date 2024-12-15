@@ -1,5 +1,6 @@
 using System.Text.Json;
 using Domain.Models;
+using Task = Domain.Models.Task;
 
 namespace FileData;
 
@@ -8,16 +9,16 @@ public class FileContext
     private const string filePath = "data.json";
     private DataContainer? dataContainer;
 
-    public ICollection<Todo> Todos
+    public ICollection<Task> Tasks
     {
         get
         {
             LoadData();
-            return dataContainer!.Todos;
+            return dataContainer!.Tasks;
         }
     }
 
-    public ICollection<User> Users
+    public ICollection<AuthenticationUser> Users
     {
         get
         {
@@ -34,8 +35,8 @@ public class FileContext
         {
             dataContainer = new ()
             {
-                Todos = new List<Todo>(),
-                Users = new List<User>()
+                Tasks = new List<Task>(),
+                Users = new List<AuthenticationUser>()
             };
             return;
         }

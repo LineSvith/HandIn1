@@ -2,94 +2,21 @@
   "Users": [
     {
       "Id": 1,
-      "UserName": "Line"
-    },
-    {
-      "Id": 2,
-      "UserName": "Lotte"
-    },
-    {
-      "Id": 3,
-      "UserName": "line1"
-    },
-    {
-      "Id": 4,
-      "UserName": "hjem"
+      "Username ": "Line",
+        "Password": "1234",
+        "Email": "lmgs@kamstrup.com",
+        "Domain": "kamstrup",
+        "Name": "Line",   
+        "Role": "Admin",
+        "Age": 25,
+        "SecurityLevel": 5
     }
+      
+ 
   ],
-  "Todos": [
-    {
-      "Id": 3,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Line"
-      },
-      "Title": "lav opgave 1",
-      "IsCompleted": false
-    },
-    {
-      "Id": 4,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Line"
-      },
-      "Title": "lav opgave 2",
-      "IsCompleted": false
-    },
-    {
-      "Id": 5,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Line"
-      },
-      "Title": "opgave 3",
-      "IsCompleted": false
-    },
-    {
-      "Id": 6,
-      "Owner": {
-        "Id": 2,
-        "UserName": "Lotte"
-      },
-      "Title": "hej",
-      "IsCompleted": false
-    },
-    {
-      "Id": 7,
-      "Owner": {
-        "Id": 3,
-        "UserName": "line1"
-      },
-      "Title": "med",
-      "IsCompleted": false
-    },
-    {
-      "Id": 8,
-      "Owner": {
-        "Id": 3,
-        "UserName": "line1"
-      },
-      "Title": "dig",
-      "IsCompleted": false
-    },
-    {
-      "Id": 9,
-      "Owner": {
-        "Id": 2,
-        "UserName": "Lotte"
-      },
-      "Title": "jkmgk",
-      "IsCompleted": true
-    },
-    {
-      "Id": 10,
-      "Owner": {
-        "Id": 2,
-        "UserName": "Lotte"
-      },
-      "Title": "en mere ",
-      "IsCompleted": true
-    },
+  
+  
+  "Tasks": [
     {
       "Id": 1,
       "Owner": {

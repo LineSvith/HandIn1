@@ -30,7 +30,21 @@ public class UserHttpClient : IUserService
         })!;
         return user;
     }
+    public async Task<UserLoginDto> Login(UserCreationDto dto)
+    {
+        HttpResponseMessage response = await client.PostAsJsonAsync("/users/login", dto);
+        string result = await response.Content.ReadAsStringAsync();
+        if (!response.IsSuccessStatusCode)
+        {
+            throw new Exception(result);
+        }
 
+        UserLoginDto user = JsonSerializer.Deserialize<UserLoginDto>(result, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
+        return user;
+    }
     public async Task<IEnumerable<User>> GetUsers(string? usernameContains = null)
     {
         string uri = "/users";
@@ -51,4 +65,5 @@ public class UserHttpClient : IUserService
         })!;
         return users;
     }
-}
+}   
+        

@@ -21,3 +21,4 @@
 /Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Domain/obj/Debug/net7.0/refint/Domain.dll
 /Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Domain/obj/Debug/net7.0/Domain.pdb
 /Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Domain/obj/Debug/net7.0/ref/Domain.dll
+/Users/line/Desktop/VIA College/7. Semester/DNP/Afleveringer/HandIn1/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
