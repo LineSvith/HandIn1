@@ -1,0 +1,53 @@
+/* Apply styles to the entire form */
+body[b-m5prnuwo3l] {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+h3[b-m5prnuwo3l] {
+    padding: 10px;
+}
+
+/* Style the form groups */
+.form-group[b-m5prnuwo3l] {
+    margin: 20px 0;
+    text-align: left;
+}
+
+/* Style the labels */
+.form-group label[b-m5prnuwo3l] {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Style the input fields and textarea */
+.form-control[b-m5prnuwo3l] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the button */
+button[b-m5prnuwo3l] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover[b-m5prnuwo3l] {
+    background-color: #45a049;
+}
+
+/* Style the result message */
+.color[b-m5prnuwo3l] {
+    font-weight: bold;
+    margin-top: 10px;
+}
